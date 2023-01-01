@@ -1,0 +1,23 @@
+name: Update repo
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'debs/**', 'dev-repo/debs/**' ]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Update repos
+        run: |
+          ./update_repo.sh
+          ./dev-repo/update_repo.sh
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update repo
