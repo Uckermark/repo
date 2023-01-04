@@ -3,7 +3,7 @@ name: Update repo
 on:
   push:
     branches: [ main ]
-    paths: [ 'debs/**', 'dev-repo/debs/**' ]
+    paths: [ 'debs/**' ]
     
 jobs:
   build:
@@ -15,7 +15,6 @@ jobs:
       - name: Update repos
         run: |
           ./update_repo.sh
-          ./dev-repo/update_repo.sh
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
