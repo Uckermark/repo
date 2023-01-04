@@ -1,8 +1,0 @@
-Origin: Uckermark's repo
-Label: Uckermark's repo
-Suite: ./
-Version: 1.0
-Codename: uckermark
-Architectures: iphoneos-arm
-Components: 
-Description: Uckermark's repo
