@@ -5,10 +5,10 @@ Maintainer: Uckermark
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>=15.0), com.ex.substitute (>= 2.3.1)
 Filename: ./debs/not-a-bypass.deb
-Size: 7476656
-MD5sum: 3132480fccc75c764415c9b0bb6250da
-SHA1: c535cd2b574ef8909c37db119e7cb935fdecc5db
-SHA256: 5ebb777efeffa7ac8a7aef318ef067a48cecf256b101cd112402ea87dfd77987
+Size: 7476816
+MD5sum: b567202758e52fe0e09f9906dc30c3af
+SHA1: e26282ad7d7397904474b5786e2afcf9e1f6a803
+SHA256: 0c30a2a1db0f9e19f414692f43c992e66137c314471ba75d0c4762325b97faeb
 Section: Tweaks
 Priority: optional
 Description: Global jailbreak detection bypass
