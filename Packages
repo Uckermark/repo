@@ -6,7 +6,7 @@ Architecture: iphoneos-arm
 Maintainer: Uckermark
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>=13.0), com.ex.substitute (>= 2.0)
-Filename: ./debs/not-a-bypass (1).deb
+Filename: ./debs/not-a-bypass.deb
 Size: 15338696
 MD5sum: 7d7fc1bfd32cc55540a30359d9f3826e
 SHA1: f74d81ffcfa681b5b88c5a8e20d1544562e76862
