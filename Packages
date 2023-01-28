@@ -1,16 +1,16 @@
 
 Package: com.uckermark.not-a-bypass
 Icon: https://www.uckermark.tk/repo/icons/com.uckermark.not-a-bypass.webp
-Version: 1.1
+Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: Uckermark
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>=13.0), com.ex.substitute (>= 2.0)
 Filename: ./debs/not-a-bypass.deb
-Size: 15338696
-MD5sum: 7d7fc1bfd32cc55540a30359d9f3826e
-SHA1: f74d81ffcfa681b5b88c5a8e20d1544562e76862
-SHA256: 53e7eee3dadf54d4ff4f3cf25315cfa1a34cf8f37b039b0dba7696cc5819e4c7
+Size: 19381350
+MD5sum: 5f3fdddccb45e6cb01d9b72aefcbd223
+SHA1: d744f90312c85f1cac5046acec7dca07f05b8b7f
+SHA256: cbccfb837a487306d76af3abb5c83df9aa855f1380bb404f1cab8eef2780e138
 Section: Tweaks
 Priority: optional
 Description: Global jailbreak detection bypass
