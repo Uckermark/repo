@@ -3,6 +3,6 @@ Label: Uckermark's repo
 Suite: ./
 Version: 1.0
 Codename: Uckermark
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm, iphoneos-arm64
 Components: 
 Description: Uckermark's repo

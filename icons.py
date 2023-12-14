@@ -12,7 +12,7 @@ for package in packages:
   text1, text2 = text.split(package + "\n")
   id = package.split("Package: ")[1]
   if os.path.exists("./icons/" + id + ".webp"):
-    icon = "Icon: https://www.uckermark.tk/repo/icons/" + id + ".webp\n"
+    icon = "Icon: https://repo.uckermark.dev/icons/" + id + ".webp\n"
     text = text1 + "\n" + package + "\n" + icon + text2
 
 with open("Packages", 'w') as file:
