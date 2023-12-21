@@ -1,21 +1,5 @@
 Package: com.uckermark.cometcrashfix
 Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Uckermark
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
-Filename: ./debs/com.uckermark.cometcrashfix_1.0_iphoneos-arm.deb
-Size: 2452
-MD5sum: 2907c07f025bde5db116c642f514dbd3
-SHA1: 1f1426fa868205d2edd1aebe0da57bc89170ff65
-SHA256: 65cf87cc3462506f414176606fee4a99443abdd60ba9686ab912bf99240b9f95
-Section: Tweaks
-Description: Workaround for Preferences crashing when opening Comet Preferencebundles on iOS 16+
-Author: Uckermark
-Name: CometCrashFix
-
-Package: com.uckermark.cometcrashfix
-Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: Uckermark
 Installed-Size: 168
@@ -25,6 +9,22 @@ Size: 2512
 MD5sum: ce82f5eb7ebbec03b76fc38cac4f5cb1
 SHA1: f6de5692323ace6c74a463f691f9dcd1053debc1
 SHA256: e911255e3327d64b0ddb4dcfcde635de97a34a7ef4ff9ad8db9021b9a0c3bfa6
+Section: Tweaks
+Description: Workaround for Preferences crashing when opening Comet Preferencebundles on iOS 16+
+Author: Uckermark
+Name: CometCrashFix
+
+Package: com.uckermark.cometcrashfix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Uckermark
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
+Filename: ./debs/com.uckermark.cometcrashfix_1.0_iphoneos-arm.deb
+Size: 2452
+MD5sum: 2907c07f025bde5db116c642f514dbd3
+SHA1: 1f1426fa868205d2edd1aebe0da57bc89170ff65
+SHA256: 65cf87cc3462506f414176606fee4a99443abdd60ba9686ab912bf99240b9f95
 Section: Tweaks
 Description: Workaround for Preferences crashing when opening Comet Preferencebundles on iOS 16+
 Author: Uckermark
