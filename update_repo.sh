@@ -1,6 +1,6 @@
 #/usr/bin/env bash
 
-dpkg-scanpackages ./debs > Packages
+dpkg-scanpackages  --multiversion ./debs > Packages
 python ./icons.py
 rm Packages.gz Packages.bz2
 gzip -c9 Packages > Packages.gz
