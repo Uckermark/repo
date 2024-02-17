@@ -1,0 +1,124 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #3498db;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button,
+.download-button {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.download-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #2ecc71;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.blue-button {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.orange-button {
+    background-color: #e67e22;
+    color: #ffffff;
+}
+
+.button:hover,
+.download-button:hover {
+    background-color: #2c3e50;
+}
+
+.download-button:hover {
+    background-color: #27ae60;
+}
+
+.package-box {
+    border: 1px solid #34495e;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+}
+
+#add-to-cydia,
+#add-to-sileo,
+#add-to-zebra,
+#add-to-installer {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#add-to-cydia {
+    background-color: #8c583f;
+    color: #ffffff;
+}
+
+#add-to-cydia:hover {
+    background-color: #633b2c;
+}
+
+#add-to-sileo {
+    background-color: #24cdc2;
+    color: #ffffff;
+}
+
+#add-to-sileo:hover {
+    background-color: #0ea79e;
+}
+
+#add-to-zebra {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#add-to-zebra:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#add-to-installer {
+    background-color: #147eea;
+    color: #ffffff;
+}
+
+#add-to-installer:hover {
+    background-color: #2c93ef;
+}
+
