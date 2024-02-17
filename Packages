@@ -1,3 +1,19 @@
+Package: com.uckermark.betaalert
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Uckermark
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.uckermark.betaalert_1.0_iphoneos-arm64.deb
+Size: 3812
+MD5sum: 6c8061b352981617e891fccd72566f5c
+SHA1: 62d5e77ac46bbcd9edb9c3788c00463b4f01b017
+SHA256: 30e2fb16efea0dda0397b45e5de309b2ed185ce29379ad609689b8d2440eb6b2
+Section: Tweaks
+Description: Removes the annoying beta expired alert
+Author: Uckermark
+Name: BetaAlertBeGone
+
 Package: com.uckermark.cometcrashfix
 Version: 1.0
 Architecture: iphoneos-arm
