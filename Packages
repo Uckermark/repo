@@ -46,23 +46,3 @@ Description: Workaround for Preferences crashing when opening Comet Preferencebu
 Author: Uckermark
 Name: CometCrashFix
 
-Package: com.uckermark.not-a-bypass
-Version: 1.1.4
-Architecture: iphoneos-arm
-Maintainer: Uckermark
-Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
-Depends: firmware (>=13.0), com.ex.substitute (>= 2.0)
-Filename: ./debs/not-a-bypass.deb
-Size: 19381978
-MD5sum: 5e9ad00e32e2024dd537b2271013f5d4
-SHA1: fe71f40b4b480d042f0172c99fdd170b962ee59b
-SHA256: 93b67fe13a93cd9311a37a33753749679d2de5ccfb93a9cbb57855e7664fe3cb
-Section: Tweaks
-Priority: optional
-Description: Global jailbreak detection bypass
-Author: Uckermark
-Name: Not a bypass
-Icon: https://repo.uckermark.dev/icons/com.uckermark.not-a-bypass.webp
-
-
-
