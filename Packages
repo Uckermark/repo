@@ -1,3 +1,19 @@
+Package: com.megadev.sentinel
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: MegaDev
+Installed-Size: 752
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.megadev.sentinel_1.3.1_iphoneos-arm64.deb
+Size: 77256
+MD5sum: b33eecaea2d7a253ed69e512c9eba797
+SHA1: 873d3487482f746758b983a5424448aa83a96a07
+SHA256: 2ad5be043c17d9edcdc9aa38b9ef9116463c1ec51044ea375bd3f831626c6d68
+Section: Tweaks
+Description: Stop losing your jailbreak when your battery dies!
+Author: MegaDev
+Name: Sentinel
+
 Package: com.uckermark.betaalert
 Version: 1.0
 Architecture: iphoneos-arm64
